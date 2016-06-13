@@ -1,8 +1,8 @@
-﻿using Omu.ValueInjecter;
-using moduleModel = VirtoCommerce.Domain.Catalog.Model;
-using VirtoCommerce.Platform.Core.Asset;
-using AmazonMWSClientLib.Model.Feeds;
+﻿using AmazonMWSClientLib.Model.Feeds;
+using Omu.ValueInjecter;
 using System.Linq;
+using VirtoCommerce.Platform.Core.Assets;
+using moduleModel = VirtoCommerce.Domain.Catalog.Model;
 
 namespace Amazon.MerchantModule.Web.Converters
 {

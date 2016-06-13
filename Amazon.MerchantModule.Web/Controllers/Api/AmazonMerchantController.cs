@@ -1,22 +1,17 @@
-﻿using System.Collections.ObjectModel;
-using System.Linq;
-using System.Net;
-using System.Web.Http;
-using System.Web.Http.Description;
-using System.Collections.Generic;
-using Microsoft.Practices.ObjectBuilder2;
-using VirtoCommerce.Platform.Core.Security;
-using VirtoCommerce.Platform.Core.PushNotifications;
-using Amazon.MerchantModule.Web.Services;
-using Amazon.MerchantModule.Web.Helpers.Interfaces;
+﻿using Amazon.MerchantModule.Web.Helpers.Interfaces;
 using Amazon.MerchantModule.Web.Providers;
-using MarketplaceWebService;
+using Amazon.MerchantModule.Web.Services;
 using AmazonMWSClientLib.Implementation.Mws;
 using AmazonMWSClientLib.Model.Feeds;
+using MarketplaceWebService;
+using System.Web.Http;
+using System.Web.Http.Description;
+using VirtoCommerce.Platform.Core.PushNotifications;
+using VirtoCommerce.Platform.Core.Web.Security;
 
 namespace Amazon.MerchantModule.Web.Controllers.Api
 {
-	[ApiExplorerSettings(IgnoreApi=true)]
+    [ApiExplorerSettings(IgnoreApi=true)]
     [RoutePrefix("api/amazon")]
     [CheckPermission(Permission = PredefinedPermissions.Manage)]
     public class AmazonMerchantController : ApiController

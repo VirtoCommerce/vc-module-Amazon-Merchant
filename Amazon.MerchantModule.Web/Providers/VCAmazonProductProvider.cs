@@ -1,15 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using Amazon.MerchantModule.Web.Converters;
+using AmazonMWSClientLib.Model.Feeds;
+using Microsoft.Practices.ObjectBuilder2;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using Amazon.MerchantModule.Web.Converters;
-using Microsoft.Practices.ObjectBuilder2;
 using VirtoCommerce.Domain.Catalog.Model;
 using VirtoCommerce.Domain.Catalog.Services;
-using VirtoCommerce.Domain.Pricing.Model;
 using VirtoCommerce.Domain.Pricing.Services;
-using VirtoCommerce.Platform.Core.Asset;
-using VirtoCommerce.Platform.Core.Common;
-using AmazonMWSClientLib.Model.Feeds;
+using VirtoCommerce.Platform.Core.Assets;
 
 namespace Amazon.MerchantModule.Web.Providers
 {
