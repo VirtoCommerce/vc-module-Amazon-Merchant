@@ -37,7 +37,7 @@
             </setting>
             <setting>
                 <name>Amazon.Merchant.AccessKeyId</name>
-                <valueType>string</valueType>
+                <valueType>securestring</valueType>
                 <title>Amazon Mws Access Key Id</title>
                 <description>
                     * Access Key ID obtained from:
@@ -53,7 +53,7 @@
             </setting>
             <setting>
                 <name>Amazon.Merchant.MwsSecretKey</name>
-                <valueType>string</valueType>
+                <valueType>securestring</valueType>
                 <title>Amazon Mws Secret Key</title>
                 <description>
                     * Secret Key obtained from:

@@ -14,8 +14,8 @@ namespace Amazon.MerchantModule.Web
     {
         private const string _merchantIdPropertyName = "Amazon.MerchantModule.MerchantId";
         private const string _marketplaceIdPropertyName = "Amazon.MerchantModule.MarketplaceId";
-        private const string _awsAccessKeyIdPropertyName = "Amazon.MerchantModule.MwsAccessKeyId";
-        private const string _awsSecretAccessKeyPropertyName = "Amazon.MerchantModule.MwsSecretAccessKey";
+        private const string _awsAccessKeyIdPropertyName = "Amazon.MerchantModule.AccessKeyId";
+        private const string _awsSecretAccessKeyPropertyName = "Amazon.MerchantModule.MwsSecretKey";
         private const string _serviceUrlPropertyName = "Amazon.MerchantModule.ServiceUrl";
 
         private readonly IUnityContainer _container;
